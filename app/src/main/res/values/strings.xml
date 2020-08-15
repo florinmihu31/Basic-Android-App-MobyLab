@@ -14,4 +14,6 @@
     <string name="alert_title">Important announcement</string>
     <string name="yes_button_text">Yes</string>
     <string name="no_button_text">No</string>
+    <string name="awesome_menu_text">Awesome Menu</string>
+    <string name="choose_action_text">Choose an action</string>
 </resources>
