@@ -17,4 +17,8 @@
     <string name="awesome_menu_text">Awesome Menu</string>
     <string name="choose_action_text">Choose an action</string>
     <string name="awesome_app_title">My Awesome App</string>
+    <string name="start_descendant_1">Start Descendant 1</string>
+    <string name="start_descendant_2">Start Descendant 2</string>
+    <string name="external_activities">External Activities</string>
+    <string name="start_google_maps">Start Google Maps</string>
 </resources>

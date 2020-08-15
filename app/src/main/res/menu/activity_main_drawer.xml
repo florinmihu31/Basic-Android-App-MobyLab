@@ -5,13 +5,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:title="TODO" />
+            android:id="@+id/nav_descendant_1"
+            android:title="@string/start_descendant_1" />
         <item
-            android:id="@+id/nav_gallery"
-            android:title="TODO" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:title="TODO" />
+            android:id="@+id/nav_descendant_2"
+            android:title="@string/start_descendant_2" />
     </group>
+
+    <item android:title="@string/external_activities">
+
+        <menu>
+            <item
+                android:id="@+id/nav_google_maps"
+                android:title="@string/start_google_maps" />
+        </menu>
+
+    </item>
+
 </menu>
