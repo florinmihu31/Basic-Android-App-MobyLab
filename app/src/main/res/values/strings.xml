@@ -16,4 +16,5 @@
     <string name="no_button_text">No</string>
     <string name="awesome_menu_text">Awesome Menu</string>
     <string name="choose_action_text">Choose an action</string>
+    <string name="awesome_app_title">My Awesome App</string>
 </resources>
