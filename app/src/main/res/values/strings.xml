@@ -21,4 +21,22 @@
     <string name="start_descendant_2">Start Descendant 2</string>
     <string name="external_activities">External Activities</string>
     <string name="start_google_maps">Start Google Maps</string>
+    <string name="first_rb">First RB</string>
+    <string name="second_rb">Second RB</string>
+    <string name="third_rb">Third RB</string>
+    <string name="first_cb">First CB</string>
+    <string name="second_cb">Second CB</string>
+    <string name="happy_toggle_button">Happy</string>
+    <string name="sad_toggle_button">Sad</string>
+    <string name="enter_text">Enter text here</string>
+    <string name="save_text">Save</string>
+    <string name="first_rb_selected">"First RB selected, "</string>
+    <string name="second_rb_selected">"Second RB selected, "</string>
+    <string name="third_rb_selected">"Third RB selected, "</string>
+    <string name="first_cb_selected">"First CB selected, "</string>
+    <string name="second_cb_selected">"Second CB selected, "</string>
+    <string name="toggle_button_on">"ToggleButton on, "</string>
+    <string name="toggle_button_off">"ToggleButton off, "</string>
+    <string name="no_text">No text</string>
+    <string name="text_is">"Text is "</string>
 </resources>
