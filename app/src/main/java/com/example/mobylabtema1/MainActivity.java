@@ -21,7 +21,7 @@ import com.google.android.material.snackbar.Snackbar;
 import static com.example.mobylabtema1.Constants.LOCATION_X;
 import static com.example.mobylabtema1.Constants.LOCATION_Y;
 import static com.example.mobylabtema1.Utils.displayToast;
-import static com.example.mobylabtema1.Utils.startGoogleMaps;
+import static com.example.mobylabtema1.Utils.startMaps;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity
         switch (item.getItemId()) {
             case R.id.nav_google_maps:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                startGoogleMaps(this, LOCATION_X, LOCATION_Y);
+                startMaps(this, LOCATION_X, LOCATION_Y);
                 return true;
             default:
                 return false;

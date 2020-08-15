@@ -14,7 +14,7 @@ public class Utils {
         Toast.makeText(context, resId, Toast.LENGTH_SHORT).show();
     }
 
-    public static void startGoogleMaps(Context context, double x, double y) {
+    public static void startMaps(Context context, double x, double y) {
         Uri locationUri = Uri.parse("geo:" + x + "," + y);
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, locationUri);
 
