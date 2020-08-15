@@ -92,13 +92,13 @@ public class MainActivity extends AppCompatActivity
 
         alertBuilder.setTitle(R.string.alert_title)
                 .setMessage(R.string.awesome_text)
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                .setPositiveButton(R.string.yes_button_text, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         displayToast(MainActivity.this, R.string.everyone_awesome_text);
                     }
                 })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.no_button_text, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         displayToast(MainActivity.this, R.string.sad_text);
