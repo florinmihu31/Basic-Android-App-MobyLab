@@ -5,11 +5,13 @@
         android:id="@+id/action_information"
         android:icon="@drawable/ic_info"
         android:orderInCategory="100"
+        android:onClick="showAlertDialogMessage"
         android:title="@string/option_information"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_toast"
+        android:onClick="showToastMessage"
         android:orderInCategory="200"
         android:title="@string/option_toast"
         app:showAsAction="never" />
