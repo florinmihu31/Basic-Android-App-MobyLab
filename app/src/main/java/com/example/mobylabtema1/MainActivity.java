@@ -1,6 +1,7 @@
 package com.example.mobylabtema1;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -144,10 +145,25 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
 
         switch (item.getItemId()) {
+            case R.id.nav_descendant_1:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                Intent firstDescendantIntent = new Intent(MainActivity.this,
+                        FirstDescendantActivity.class);
+                startActivity(firstDescendantIntent);
+                return true;
+
+            case R.id.nav_descendant_2:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                Intent secondDescendantIntent = new Intent(MainActivity.this,
+                        SecondDescendantActivity.class);
+                startActivity(secondDescendantIntent);
+                return true;
+
             case R.id.nav_google_maps:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 startMaps(this, LOCATION_X, LOCATION_Y);
                 return true;
+
             default:
                 return false;
         }
