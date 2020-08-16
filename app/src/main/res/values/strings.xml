@@ -41,4 +41,6 @@
     <string name="text_is">"Text is "</string>
     <string name="first_decendant_title">First Descendant Activity</string>
     <string name="second_descendant_title">Second Descendant Activity</string>
+    <string name="sibling_activity_text">Go to sibling activity</string>
+    <string name="nothing_text">I do nothing</string>
 </resources>
