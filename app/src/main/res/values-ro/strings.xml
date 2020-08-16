@@ -26,9 +26,9 @@
     <string name="save_text">Salveaza</string>
     <string name="first_rb_selected">"Primul RB selectat, "</string>
     <string name="second_rb_selected">"Al doilea RB selectat, "</string>
-    <string name="third_rb_selected">"AL treilea RB selectat, "</string>
+    <string name="third_rb_selected">"Al treilea RB selectat, "</string>
     <string name="first_cb_selected">"Primul CB selectat, "</string>
-    <string name="second_cb_selected">"AL doilea CB selectat, "</string>
+    <string name="second_cb_selected">"Al doilea CB selectat, "</string>
     <string name="toggle_button_on">"ToggleButton pornit, "</string>
     <string name="toggle_button_off">"ToggleButton oprit, "</string>
     <string name="no_text">Niciun text</string>
