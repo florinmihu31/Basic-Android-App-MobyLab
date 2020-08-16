@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="awesome_text">Esti minunat!</string>
+    <string name="everyone_awesome_text">Toata lumea e minunata!</string>
+    <string name="option_information">Informatii</string>
+    <string name="option_toast">Toast</string>
+    <string name="sad_text">Asta e trist!</string>
+    <string name="alert_title">Anunt important</string>
+    <string name="yes_button_text">Da</string>
+    <string name="no_button_text">Nu</string>
+    <string name="awesome_menu_text">Meniu minunat</string>
+    <string name="choose_action_text">Alege o actiune</string>
+    <string name="awesome_app_title">Aplicatia Mea Minunata</string>
+    <string name="start_descendant_1">Porneste Descendent 1</string>
+    <string name="start_descendant_2">Porneste Descendent 2</string>
+    <string name="external_activities">Activitati Externe</string>
+    <string name="start_google_maps">Porneste Google Maps</string>
+    <string name="first_rb">Primul RB</string>
+    <string name="second_rb">Al doilea RB</string>
+    <string name="third_rb">Al treilea RB</string>
+    <string name="first_cb">Primul CB</string>
+    <string name="second_cb">Al doilea CB</string>
+    <string name="happy_toggle_button">Fericit</string>
+    <string name="sad_toggle_button">Trist</string>
+    <string name="enter_text">Introdu text aici</string>
+    <string name="save_text">Salveaza</string>
+    <string name="first_rb_selected">"Primul RB selectat, "</string>
+    <string name="second_rb_selected">"Al doilea RB selectat, "</string>
+    <string name="third_rb_selected">"AL treilea RB selectat, "</string>
+    <string name="first_cb_selected">"Primul CB selectat, "</string>
+    <string name="second_cb_selected">"AL doilea CB selectat, "</string>
+    <string name="toggle_button_on">"ToggleButton pornit, "</string>
+    <string name="toggle_button_off">"ToggleButton oprit, "</string>
+    <string name="no_text">Niciun text</string>
+    <string name="text_is">"Textul este "</string>
+    <string name="first_decendant_title">Prima Activitate Descendenta</string>
+    <string name="second_descendant_title">A Doua Activitate Descendenta</string>
+    <string name="sibling_activity_text">Mergi la activitatea frate</string>
+    <string name="nothing_text">Nu fac nimic</string>
+    <string name="more">Mai mult</string>
+</resources>

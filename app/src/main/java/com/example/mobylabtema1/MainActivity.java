@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, R.string.awesome_text, Snackbar.LENGTH_SHORT)
-                        .setAction("More", new View.OnClickListener() {
+                        .setAction(R.string.more, new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 displayToast(MainActivity.this, R.string.everyone_awesome_text);

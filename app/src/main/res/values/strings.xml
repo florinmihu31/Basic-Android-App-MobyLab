@@ -2,8 +2,6 @@
     <string name="app_name">MobyLabTema1</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
     <string name="awesome_text">You are awesome!</string>
@@ -43,4 +41,5 @@
     <string name="second_descendant_title">Second Descendant Activity</string>
     <string name="sibling_activity_text">Go to sibling activity</string>
     <string name="nothing_text">I do nothing</string>
+    <string name="more">More</string>
 </resources>
