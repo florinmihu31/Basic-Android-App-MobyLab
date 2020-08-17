@@ -33,7 +33,7 @@
     <string name="toggle_button_off">"ToggleButton oprit, "</string>
     <string name="no_text">Niciun text</string>
     <string name="text_is">"Textul este "</string>
-    <string name="first_decendant_title">Prima Activitate Descendenta</string>
+    <string name="first_descendant_title">Prima Activitate Descendenta</string>
     <string name="second_descendant_title">A Doua Activitate Descendenta</string>
     <string name="sibling_activity_text">Mergi la activitatea frate</string>
     <string name="nothing_text">Nu fac nimic</string>

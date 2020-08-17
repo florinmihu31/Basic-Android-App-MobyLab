@@ -12,7 +12,7 @@
 
         <activity
             android:name=".FirstDescendantActivity"
-            android:label="@string/first_decendant_title"
+            android:label="@string/first_descendant_title"
             android:parentActivityName=".MainActivity">
 
             <meta-data
