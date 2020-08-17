@@ -13,13 +13,13 @@ import java.util.List;
 
 import static com.example.mobylabtema1.Utils.displayToast;
 
-public class ButtonTextAdapter extends RecyclerView.Adapter<ButtonTextAdapter.ButtonTextViewHolder> {
+public class ButtonAdapter extends RecyclerView.Adapter<ButtonAdapter.ButtonViewHolder> {
 
     private final List<String> mButtonList;
     private LayoutInflater mInflater;
     private Context mContext;
 
-    public ButtonTextAdapter(Context context, List<String> buttonList) {
+    public ButtonAdapter(Context context, List<String> buttonList) {
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mButtonList = buttonList;
@@ -27,13 +27,13 @@ public class ButtonTextAdapter extends RecyclerView.Adapter<ButtonTextAdapter.Bu
 
     @NonNull
     @Override
-    public ButtonTextViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ButtonViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View mItemView = mInflater.inflate(R.layout.button_item, parent, false);
-        return new ButtonTextViewHolder(mItemView, this);
+        return new ButtonViewHolder(mItemView, this);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ButtonTextViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ButtonViewHolder holder, int position) {
         String mCurrent = mButtonList.get(position);
         holder.buttonView.setText(mCurrent);
     }
@@ -43,18 +43,18 @@ public class ButtonTextAdapter extends RecyclerView.Adapter<ButtonTextAdapter.Bu
         return mButtonList.size();
     }
 
-    class ButtonTextViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    class ButtonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         public final Button buttonView;
-        final ButtonTextAdapter mAdapter;
+        final ButtonAdapter mAdapter;
 
-        public ButtonTextViewHolder(@NonNull View itemView, ButtonTextAdapter adapter) {
+        public ButtonViewHolder(@NonNull View itemView, ButtonAdapter adapter) {
             super(itemView);
 
             buttonView = itemView.findViewById(R.id.button);
             mAdapter = adapter;
 
-            itemView.setOnClickListener(this);
+            buttonView.setOnClickListener(this);
         }
 
         @Override

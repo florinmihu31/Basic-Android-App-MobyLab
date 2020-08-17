@@ -22,7 +22,7 @@ public class SecondDescendantActivity extends AppCompatActivity {
     private static final int SIZE = 10;
     private final List<String> mButtonList = new ArrayList<>();
     private RecyclerView mRecyclerView;
-    private ButtonTextAdapter mAdapter;
+    private ButtonAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class SecondDescendantActivity extends AppCompatActivity {
         }
 
         mRecyclerView = findViewById(R.id.recycler_view);
-        mAdapter = new ButtonTextAdapter(this, mButtonList);
+        mAdapter = new ButtonAdapter(this, mButtonList);
 
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
