@@ -14,4 +14,5 @@
     * Giving the user a good experience
 
 ### Languages
+
 * The project was developed in Android Studio, using Java and XML.
