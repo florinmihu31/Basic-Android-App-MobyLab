@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Aplicatia Mea Minunata</string>
+
     <string name="awesome_text">Esti minunat!</string>
     <string name="everyone_awesome_text">Toata lumea e minunata!</string>
     <string name="option_information">Informatii</string>
@@ -10,7 +12,6 @@
     <string name="no_button_text">Nu</string>
     <string name="awesome_menu_text">Meniu minunat</string>
     <string name="choose_action_text">Alege o actiune</string>
-    <string name="awesome_app_title">Aplicatia Mea Minunata</string>
     <string name="start_descendant_1">Porneste Descendent 1</string>
     <string name="start_descendant_2">Porneste Descendent 2</string>
     <string name="external_activities">Activitati Externe</string>

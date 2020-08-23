@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MobyLabTema1</string>
+    <string name="app_name">My Awesome App</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -14,7 +14,6 @@
     <string name="no_button_text">No</string>
     <string name="awesome_menu_text">Awesome Menu</string>
     <string name="choose_action_text">Choose an action</string>
-    <string name="awesome_app_title">My Awesome App</string>
     <string name="start_descendant_1">Start Descendant 1</string>
     <string name="start_descendant_2">Start Descendant 2</string>
     <string name="external_activities">External Activities</string>
